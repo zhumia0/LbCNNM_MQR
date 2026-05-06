@@ -1,0 +1,26 @@
+* text=auto
+
+# Source code and text files use LF line endings
+*.m text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.sh text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Windows batch scripts use CRLF line endings
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary files should not be modified by Git line-ending conversion
+*.mat binary
+*.fig binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.xlsx binary
+*.docx binary
+*.zip binary
